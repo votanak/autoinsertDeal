@@ -1,8 +1,8 @@
 ﻿{
   "manifest_version": 3,
-  "name": "Auto Insert In Mail Subject",
+  "name": "Auto Insert Deal Name",
   "version": "1.0",
-  "description": "Автоматически Вставляет название сделки в тему письма",
+  "description": "Автоматически Вставляет название сделки",
   "permissions": ["activeTab", "scripting"],
   "host_permissions": ["<all_urls>"],
   "action": {
