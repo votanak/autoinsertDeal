@@ -1,0 +1,17 @@
+﻿{
+  "manifest_version": 3,
+  "name": "Auto Insert In Mail Subject",
+  "version": "1.0",
+  "description": "Автоматически Вставляет название сделки в тему письма",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Скопировать название сделки",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
